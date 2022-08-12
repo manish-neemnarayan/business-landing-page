@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar ---------------------------------------------------------- */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 18rem;
+    list-style-type: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: rgb(164, 164, 164);
+
+}
+
+.logo-nav {
+    width: 7rem;
+}
+
+.btn-register {
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    color: #fff;
+    background-color: #616C6F;
+}
+
+header {
+    background-color: #616C6F;
+    color: #fff;
+}
+
+.header-content-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 8rem;
+    padding: 4rem;
+    padding-left: 10rem;
+}
+
+.header-img {
+    width: 26rem;
+    height: 29rem;
+    border-radius: 4px;
+}
+
+.header-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 26rem;
+    height: 29rem;
+    border-radius: 4px;
+}
+
+.header-text-container h2 {
+    font-size: 3rem;
+    width: 96%;
+}
+
+.header-text-container p {
+    font-size: 1.2rem;
+    margin: 2rem 0rem;
+    width: 95%;
+    color: rgb(164, 164, 164);
+}
+
+.mail {
+    background: #fff;
+    width: 108%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.4rem 0rem;
+    border-radius: 4px;
+}
+
+.mail input {
+    padding: 1rem;
+    padding-left: 0;
+    border: none;
+    margin-right: 2rem;
+    margin-left: -1rem;
+}
+
+.mail-button {
+    width: 10rem;
+    padding: 1rem 0.5rem;
+    background: #6AB04A;
+    border: none;
+    color: #fff;
+}
+
+.mail i {
+    color: #323131;
+    margin-bottom: 0.1rem;
+}
+
+/* stat display --------------------------------------------------------------- */
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5rem 0rem;
+    gap: 2rem;
+}
+
+.stat h2 {
+    width: 27%;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.stat-content {
+    display: flex;
+    margin: 2rem 0rem;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.stat-content h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 1.8rem;
+}
+.stat-content h4 span {
+    font-size: .8rem;
+}
+
+.stat img {
+    width: 45rem;
+    height: 23rem;
+}
+
+.stat-content-container {
+    display: flex;
+    /* align-items: center; */
+    margin-left: 6rem;
+    gap: 6rem;
+    margin-top: 4rem;
+}
+
+.stat-img {
+    width: 30rem;
+}
+
+.scc2 {
+    display: flex;
+    align-items: center;
+    margin-right: 8rem;
+    gap: 6rem;
+    margin-top: 10rem;
+    flex-direction: row-reverse;
+}
+.features {
+    margin-top: 10rem;
+}
+.features h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 0 30rem;
+}
+
+
+/* team member section ------------------------------------------------------- */
+
+.image-card img {
+    width: 10rem;
+}
+.image-card h5 {
+    width: 10rem;
+}
+.image-card p {
+    width: 15rem;
+}
+
+.team-member {
+    margin: 5rem 2rem;
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+.team-member p {
+    width: 52%;
+    text-align: center;
+}
+.members-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-left: 5rem;
+}
+
+.head-team-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image-card {
+    width: 28%;
+}
+
+.image-card p {
+    text-align: left;
+}
+
+/* footer ----------------------------------------------------------------------- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #2B2B52;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-media {
+    text-align: center;
+}
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.links-container ul li {
+    list-style-type: none;
+    margin: 1rem 0;
+}
+.links-container ul li a {
+    text-decoration: none;
+    color: #616C6F;
+}
+.links-container h4 {
+    color: #fff;
+}
+.logo img {
+    color: #fff;
+}
+
+.social-media img {
+    background-color: #2B2B52;
+}
