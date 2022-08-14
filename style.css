@@ -1,277 +1,391 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* navbar ---------------------------------------------------------- */
+header .bar {
+  display: none;
+  position: absolute;
+  top: 2rem;
+  right: 4rem;
+  font-size: 1.5rem;
+}
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 2rem;
-    padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 1rem;
 }
 
 .nav-list {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-left: 18rem;
-    list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 18rem;
+  list-style-type: none;
 }
 
 .nav-list a {
-    text-decoration: none;
-    color: rgb(164, 164, 164);
-
+  text-decoration: none;
+  color: rgb(164, 164, 164);
 }
 
 .logo-nav {
-    width: 7rem;
+  width: 7rem;
 }
 
 .btn-register {
-    border-radius: 10px;
-    padding: 1rem 2rem;
-    color: #fff;
-    background-color: #616C6F;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: #616c6f;
 }
 
 header {
-    background-color: #616C6F;
-    color: #fff;
+  background-color: #616c6f;
+  color: #fff;
 }
 
 .header-content-container {
-    display: flex;
-    align-items: center;
-    /* justify-content: space-around; */
-    gap: 8rem;
-    padding: 4rem;
-    padding-left: 10rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  gap: 8rem;
+  padding: 4rem;
+  padding-left: 10rem;
 }
 
 .header-img {
-    width: 26rem;
-    height: 29rem;
-    border-radius: 4px;
+  width: 26rem;
+  height: 29rem;
+  border-radius: 4px;
 }
 
 .header-text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 26rem;
-    height: 29rem;
-    border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 26rem;
+  height: 29rem;
+  border-radius: 4px;
 }
 
 .header-text-container h2 {
-    font-size: 3rem;
-    width: 96%;
+  font-size: 3rem;
+  width: 96%;
 }
 
 .header-text-container p {
-    font-size: 1.2rem;
-    margin: 2rem 0rem;
-    width: 95%;
-    color: rgb(164, 164, 164);
+  font-size: 1.2rem;
+  margin: 2rem 0rem;
+  width: 95%;
+  color: rgb(164, 164, 164);
 }
 
 .mail {
-    background: #fff;
-    width: 108%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0.4rem 0rem;
-    border-radius: 4px;
+  background: #fff;
+  width: 108%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.4rem 0rem;
+  border-radius: 4px;
 }
 
 .mail input {
-    padding: 1rem;
-    padding-left: 0;
-    border: none;
-    margin-right: 2rem;
-    margin-left: -1rem;
+  padding: 1rem;
+  padding-left: 0;
+  border: none;
+  margin-right: 2rem;
+  margin-left: -1rem;
 }
 
 .mail-button {
-    width: 10rem;
-    padding: 1rem 0.5rem;
-    background: #6AB04A;
-    border: none;
-    color: #fff;
+  width: 10rem;
+  padding: 1rem 0.5rem;
+  background: #6ab04a;
+  border: none;
+  color: #fff;
 }
 
 .mail i {
-    color: #323131;
-    margin-bottom: 0.1rem;
+  color: #323131;
+  margin-bottom: 0.1rem;
 }
 
 /* stat display --------------------------------------------------------------- */
 
 .stat {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin: 5rem 0rem;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5rem 0rem;
+  gap: 2rem;
 }
 
 .stat h2 {
-    width: 27%;
-    text-align: center;
-    font-size: 1.9rem;
+  width: 27%;
+  text-align: center;
+  font-size: 1.9rem;
 }
 
 .stat-content {
-    display: flex;
-    margin: 2rem 0rem;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
+  display: flex;
+  margin: 2rem 0rem;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
 }
 
 .stat-content h4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.2rem;
-    font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 1.8rem;
 }
 .stat-content h4 span {
-    font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .stat img {
-    width: 45rem;
-    height: 23rem;
+  width: 45rem;
+  height: 23rem;
 }
 
 .stat-content-container {
-    display: flex;
-    /* align-items: center; */
-    margin-left: 6rem;
-    gap: 6rem;
-    margin-top: 4rem;
+  display: flex;
+  /* align-items: center; */
+  margin-left: 6rem;
+  gap: 6rem;
+  margin-top: 4rem;
 }
 
 .stat-img {
-    width: 30rem;
+  width: 30rem;
 }
 
 .scc2 {
-    display: flex;
-    align-items: center;
-    margin-right: 8rem;
-    gap: 6rem;
-    margin-top: 10rem;
-    flex-direction: row-reverse;
+  display: flex;
+  align-items: center;
+  margin-right: 8rem;
+  gap: 6rem;
+  margin-top: 10rem;
+  flex-direction: row-reverse;
 }
 .features {
-    margin-top: 10rem;
+  margin-top: 10rem;
 }
 .features h3 {
-    text-align: center;
-    font-size: 2.5rem;
-    padding: 0 30rem;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 0 30rem;
 }
-
 
 /* team member section ------------------------------------------------------- */
 
 .image-card img {
-    width: 10rem;
+  width: 10rem;
 }
 .image-card h5 {
-    width: 10rem;
+  width: 10rem;
 }
 .image-card p {
-    width: 15rem;
+  width: 15rem;
 }
 
 .team-member {
-    margin: 5rem 2rem;
-    margin-top: 9rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4rem;
+  margin: 5rem 2rem;
+  margin-top: 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
 }
 .team-member p {
-    width: 52%;
-    text-align: center;
+  width: 52%;
+  text-align: center;
 }
 .members-image {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 2rem;
-    margin-left: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-left: 5rem;
 }
 
 .head-team-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .image-card {
-    width: 28%;
+  width: 28%;
 }
 
 .image-card p {
-    text-align: left;
+  text-align: left;
 }
 
 /* footer ----------------------------------------------------------------------- */
 
 footer {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    background-color: #2B2B52;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #2b2b52;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .social-media {
-    text-align: center;
+  text-align: center;
 }
 .links-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
 }
 
 hr {
-    margin: 2rem 0rem;
+  margin: 2rem 0rem;
 }
 
 .links-container ul li {
-    list-style-type: none;
-    margin: 1rem 0;
+  list-style-type: none;
+  margin: 1rem 0;
 }
 .links-container ul li a {
-    text-decoration: none;
-    color: #616C6F;
+  text-decoration: none;
+  color: #616c6f;
 }
 .links-container h4 {
-    color: #fff;
+  color: #fff;
 }
 .logo img {
-    color: #fff;
+  color: #fff;
 }
 
 .social-media img {
-    background-color: #2B2B52;
+  background-color: #2b2b52;
+}
+
+/* media queries */
+@media screen and (max-width: 912px) {
+  html {
+    font-size: 12px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  header i.bar {
+    display: block;
+  }
+
+  .header-content-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0rem;
+    padding: 4rem;
+    padding-top: 6rem;
+  }
+
+  .mail {
+    padding: 1rem;
+  }
+
+  /* stat display section */
+  .stat h2 {
+    width: 76%;
+  }
+  .stat img {
+    width: 35rem;
+  }
+
+  .features h3 {
+    width: 75%;
+    padding: 1rem;
+    margin: 0 auto;
+    color: #ff8a00;
+    box-shadow: 0 0 5px #a1a0a0b0;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+  }
+
+  .stat-content-container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 1rem;
+  }
+
+  /* team member  */
+  .head-team-section p {
+    width: 92%;
+  }
+
+  .members-image {
+    align-items: center;
+    justify-content: center;
+    margin: 0rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .image-card {
+    width: 100%;
+    text-align: center;
+  }
+  .image-card h5 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .image-card p {
+    text-align: center;
+    width: 56%;
+    margin: 0 auto;
+  }
+
+  .logo {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .links-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .stat-content {
+    padding: 0rem 1rem;
+  }
+
+  .mail {
+    margin: 0rem -2rem;
+  }
+
+  header {
+    width: 100vw;
+  }
+
+  .stat img {
+    width: 30rem;
+  }
 }
